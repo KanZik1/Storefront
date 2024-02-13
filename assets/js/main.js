@@ -1,5 +1,7 @@
 
+// KOMMER UD I EN ARRAY - GET PRODUCT DATA FRA ISSUES 
 
+function getProductData() {
 fetch('https://dummyjson.com/products') // Replace with your API URL
     .then(response => {
         if (!response.ok) {
@@ -10,3 +12,5 @@ fetch('https://dummyjson.com/products') // Replace with your API URL
     .then(data => {
         console.log(data); // Process and use the data here
     });
+
+}
